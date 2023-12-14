@@ -25,8 +25,31 @@ client.on('messageCreate', (message) => {
     let textMessage = message.content.trim().toLowerCase();
     
     if (textMessage === 'hi mankyaa') {
-        // message.reply(`Hi ${message.author}`);
         message.reply(`Hiii, So glad to see you. Lookin mighty fine today alright 😏`);
+    }
+
+    if (textMessage === 'describe looper') {
+        message.reply(`loopad is velurant professional. loves mukbang and mommies - cali, nero, looper, rudy`);
+    }
+
+    if (textMessage === 'describe rudy') {
+        message.reply(`official iphone krunker esports player. server owner. - cali & rudy himself`);
+    }
+
+    if (textMessage === 'describe bakya') {
+        message.reply(`bakya first bandar (monke) converted to monke after 420 BC - cali`);
+    }
+
+    if (textMessage === 'describe bony') {
+        message.reply(`pony dark joke manager 💀 (ex wife beater) - bony himself`);
+    }
+
+    if (textMessage === 'describe ali bhay') {
+        message.reply(`veg biryani eater (fetish aficionado) - maska chaska eater & nero`);
+    }
+
+    if (textMessage === 'describe calibur') {
+        message.reply('"para pa pa para papa" - aliza');
     }
 });
 
